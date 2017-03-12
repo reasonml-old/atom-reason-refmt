@@ -1,0 +1,63 @@
+{
+  "name": "reason-refmt",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "(Re)format Reason code with refmt",
+  "keywords": [
+    "reason",
+    "ocaml",
+    "format",
+    "refmt"
+  ],
+  "activationHooks": [
+    "language-ocaml:grammar-used",
+    "language-ocaml-fix:grammar-used",
+    "language-reason:grammar-used",
+    "nuclide-language-reason:grammar-used"
+  ],
+  "repository": "https://github.com/314eter/atom-reason-refmt",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "configSchema": {
+    "refmtPath": {
+      "title": "Path to refmt",
+      "type": "string",
+      "default": "refmt",
+      "order": 1
+    },
+    "printWidth": {
+      "title": "Maximal width of lines",
+      "type": "integer",
+      "default": 100,
+      "order": 2
+    },
+    "formatOnSave": {
+      "type": "boolean",
+      "default": true
+    },
+    "useLinter": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "dependencies": {
+    "diff": "^3.2.0"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  }
+}

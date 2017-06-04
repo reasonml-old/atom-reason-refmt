@@ -46,7 +46,7 @@
     },
     "useLinter": {
       "type": "boolean",
-      "default": false
+      "default": true
     }
   },
   "dependencies": {

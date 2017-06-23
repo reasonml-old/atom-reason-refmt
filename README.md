@@ -8,7 +8,7 @@ _Use [refmt] to format your Reason code in Atom._
 ## Features
 
 * Format on save
-* Report formatting errors on the fly with [linter]
+* Report formatting and syntax errors on the fly with [linter]
 * Convert between Reason and Ocaml code
 
 [linter]: https://atom.io/packages/linter
@@ -31,7 +31,6 @@ This package requires [language-reason] and [refmt]. For autocompletion, linting
 
 ```sh
 apm install language-reason reason-refmt ocaml-merlin linter
-opam install reason merlin
 ```
 
 [language-reason]: https://atom.io/packages/language-reason

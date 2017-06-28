@@ -31,14 +31,7 @@
     "refmtPath": {
       "title": "Path to refmt",
       "type": "string",
-      "default": "refmt",
-      "order": 1
-    },
-    "printWidth": {
-      "title": "Maximal width of lines",
-      "type": "integer",
-      "default": 100,
-      "order": 2
+      "default": "refmt"
     },
     "formatOnSave": {
       "type": "boolean",

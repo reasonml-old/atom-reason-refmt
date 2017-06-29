@@ -18,11 +18,12 @@ _Use [refmt] to format your Reason code in Atom._
 
 No default keybindings are provided, but they can be configured in your keymap.
 
-| Command                          | Description                            |
-| -------------------------------- | -------------------------------------- |
-| `reason-refmt:format`            | Format the active file                 |
-| `reason-refmt:convert-to-reason` | Convert an OCaml file to a Reason file |
-| `reason-refmt:convert-to-ocaml`  | Convert a Reason file to an OCaml file |
+| Command                          | Description                                        |
+| -------------------------------- | -------------------------------------------------- |
+| `reason-refmt:format`            | Format the active Reason file                      |
+| `reason-refmt:convert-file`      | Convert a file from Reason to OCaml and vice versa |
+| `reason-refmt:convert-to-reason` | Convert the selection from OCaml to Reason         |
+| `reason-refmt:convert-to-ocaml`  | Convert the selection from Reason to OCaml         |
 
 
 ## Installation

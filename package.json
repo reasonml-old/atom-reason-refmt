@@ -15,7 +15,7 @@
     "language-reason:grammar-used",
     "nuclide-language-reason:grammar-used"
   ],
-  "repository": "https://github.com/314eter/atom-reason-refmt",
+  "repository": "https://github.com/reasonml-editor/atom-reason-refmt",
   "license": "MIT",
   "engines": {
     "atom": ">=1.4.0 <2.0.0"

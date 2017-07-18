@@ -2,7 +2,7 @@
 
 _Use [refmt] to format your Reason code in Atom._
 
-[refmt]: https://facebook.github.io/reason/tools.html#refmt
+[refmt]: https://reasonml.github.io/guide/tools#refmt
 
 
 ## Features
@@ -35,5 +35,5 @@ apm install language-reason reason-refmt ocaml-merlin linter
 ```
 
 [language-reason]: https://atom.io/packages/language-reason
-[refmt]: https://facebook.github.io/reason/tools.html#refmt
+[refmt]: https://reasonml.github.io/guide/tools#refmt
 [ocaml-merlin]: https://atom.io/packages/ocaml-merlin

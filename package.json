@@ -1,7 +1,7 @@
 {
   "name": "reason-refmt",
   "main": "./lib/main",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "(Re)format Reason code with refmt",
   "keywords": [
     "reason",

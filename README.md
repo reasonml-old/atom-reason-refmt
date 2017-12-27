@@ -46,10 +46,10 @@ To start hacking on this package, run:
 $ apm dev reason-refmt
 ```
 
-This clones the git repo into `~/.atom/dev/packages/reason-refmt`, and installs it as as packge into Atom. Then to begin development run:
+This clones the git repo into `~/.atom/dev/packages/reason-refmt`, and installs it as as packge into Atom as a Development Package. To begin development, start editing the package code:
 
 ```
 $ atom ~/.atom/dev/packages/reason-refmt
 ```
 
-Now you can edit the package source code. When you make changes, be sure to call up the Command Palette and run `Window: Reload` to reload your changes.
+When you make changes, be sure to call up the Command Palette and reload the editor to see your changes with `Window: Reload`.

@@ -1,6 +1,6 @@
 {
   "extends": ["standard"],
   "rules": {
-    "no-debugger": 0
+    "no-debugger": 1
   }
 }

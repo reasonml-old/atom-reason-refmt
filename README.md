@@ -37,3 +37,19 @@ apm install language-reason reason-refmt ocaml-merlin linter
 [language-reason]: https://atom.io/packages/language-reason
 [refmt]: https://reasonml.github.io/guide/editor-tools/global-installation/#recommended-through-npmyarn
 [ocaml-merlin]: https://atom.io/packages/ocaml-merlin
+
+## Development
+
+To start hacking on this package, run:
+
+```
+$ apm dev reason-refmt
+```
+
+This clones the git repo into `~/.atom/dev/packages/reason-refmt`, and installs it as as packge into Atom. Then to begin development run:
+
+```
+$ atom ~/.atom/dev/packages/reason-refmt
+```
+
+Now you can edit the package source code. When you make changes, be sure to call up the Command Palette and run `Window: Reload` to reload your changes.

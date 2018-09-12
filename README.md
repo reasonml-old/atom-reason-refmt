@@ -1,3 +1,5 @@
+# This is deprecated. Please use https://github.com/reasonml-editor/atom-ide-reason instead
+
 # reason-refmt
 
 _Use [refmt] to format your Reason code in Atom._
